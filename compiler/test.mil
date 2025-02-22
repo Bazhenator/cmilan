@@ -1,0 +1,8 @@
+begin
+	loop
+		loop
+			write(23)
+		endloop;
+		write(23)
+	endloop
+end
