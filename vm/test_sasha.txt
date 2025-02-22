@@ -1,0 +1,67 @@
+0:      PUSH    1528
+1:      STORE   0
+2:      LOAD    0
+3:      STORE   1
+4:      PUSH    0
+5:      STORE   2
+6:      PUSH    1528
+7:      LOAD    1
+8:      COMPARE 0
+9:      STORE   3
+10:     LOAD    3
+11:     JUMP_NO 38
+12:     PUSH    3
+13:     STORE   0
+14:     LOAD    0
+15:     STORE   4
+16:     PUSH    0
+17:     STORE   5
+18:     PUSH    3
+19:     LOAD    4
+20:     COMPARE 0
+21:     STORE   6
+22:     LOAD    6
+23:     JUMP_NO 30
+24:     PUSH    1
+25:     PRINT
+26:     PUSH    1
+27:     STORE   5
+28:     LOAD    6
+29:     JUMP_YES        34
+30:     LOAD    5
+31:     JUMP_YES        34
+32:     PUSH    4
+33:     PRINT
+34:     PUSH    1
+35:     STORE   2
+36:     LOAD    3
+37:     NOP
+38:     PUSH    3
+39:     LOAD    1
+40:     COMPARE 0
+41:     STORE   7
+42:     LOAD    7
+43:     JUMP_NO 50
+44:     PUSH    2
+45:     PRINT
+46:     PUSH    1
+47:     STORE   2
+48:     LOAD    7
+49:     NOP
+50:     PUSH    8
+51:     LOAD    1
+52:     COMPARE 0
+53:     STORE   8
+54:     LOAD    8
+55:     JUMP_NO 62
+56:     PUSH    3
+57:     PRINT
+58:     PUSH    1
+59:     STORE   2
+60:     LOAD    8
+61:     JUMP_YES        66
+62:     LOAD    2
+63:     JUMP_YES        66
+64:     PUSH    4
+65:     PRINT
+66:     STOP

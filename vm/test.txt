@@ -1,0 +1,31 @@
+0:      PUSH    2
+1:      PRINT
+2:      INPUT
+3:      STORE   0
+4:      LOAD    0
+5:      PUSH    0
+6:      COMPARE 4
+7:      JUMP_YES        30
+8:      PUSH    3
+9:      PRINT
+10:     INPUT
+11:     STORE   1
+12:     LOAD    1
+13:     PUSH    0
+14:     COMPARE 4
+15:     JUMP_YES        23
+16:     PUSH    23
+17:     PRINT
+18:     LOAD    1
+19:     PUSH    1
+20:     SUB
+21:     STORE   1
+22:     JUMP    12
+23:     PUSH    23
+24:     PRINT
+25:     LOAD    0
+26:     PUSH    1
+27:     SUB
+28:     STORE   0
+29:     JUMP    4
+30:     STOP
